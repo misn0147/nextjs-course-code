@@ -32,14 +32,14 @@ export default function EventItem(props) {
                     <AddressIcon />
                     <address>{formattedAddress}</address>
                 </div>
-            </div>
-            <div className={styles.actions}>
-                <Button link={exploreLink}>
-                    <span>Explore Event</span>
-                    <span className={styles.icon}>
-                        <ArrowRightIcon />
-                    </span>
-                </Button>
+                <div className={styles.actions}>
+                    <Button link={exploreLink}>
+                        <span>Explore Event</span>
+                        <span className={styles.icon}>
+                            <ArrowRightIcon />
+                        </span>
+                    </Button>
+                </div>
             </div>
         </li>
     );
